@@ -8,7 +8,7 @@
 
 - Node.js 18+
 - GitHub 계정 및 레포지토리
-- Anthropic API 키 ([console.anthropic.com](https://console.anthropic.com))
+- OpenAI API 키 ([https://platform.openai.com](https://platform.openai.com))    
 
 ## GitHub Personal Access Token 발급
 
@@ -53,7 +53,7 @@ npm run dev
 
 - **프레임워크:** Next.js 14 (App Router, TypeScript strict mode)
 - **스타일링:** Tailwind CSS + shadcn/ui
-- **AI:** Anthropic SDK (`claude-sonnet-4-5`)
+- **AI:** OpenAI SDK (`openai`)
 - **GitHub 연동:** Octokit.js
 - **실시간 업데이트:** Server-Sent Events (SSE)
 
